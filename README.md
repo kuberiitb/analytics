@@ -11,4 +11,3 @@ Respective data(state_wise_election_result_2014.csv & const_wise_election_result
 
 
 Enjoy Analyzing!!
-Kuber
