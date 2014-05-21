@@ -52,15 +52,19 @@ all_data<-rbind(all_data,data)
 dim(all_data)
 all_data<-all_data[,!(names(all_data) %in% "ConstNo")]
 #summary(all_data)
+
 write.csv(all_data,"state_wise_election_result_2014.csv",row.names=FALSE)
 
 #	Example-1
 barplot(table(State)[order(-table(State))])
 
 #	Example
+
 png("LeadingParty.png",height=720,width=1280)
-l=with(all_data,table(LeadingParty)[order(-table(LeadingParty))])
+l=with(all_data,table(LeadingPartyShort)[order(-table(LeadingPartyShort))])
 colr=c("orange","green","blue","cyan","white",rep("grey",length(l)-5))
+op <- par(mar = c(5,5,1,1)) 
 lb<-barplot(l,col=colr,axes = FALSE, axisnames = FALSE)
 text(lb, par("usr")[3], labels = names(l), srt = 90, adj =1, cex = 1,xpd = TRUE)
+axis(2,at=c(seq(0,50,10),seq(50,300,50)))
 dev.off()
