@@ -1,10 +1,25 @@
- <!DOCTYPE html>
-  <html>
-  <head>
+<!DOCTYPE html>
+<html>
+ <head>
  <title>Insights of Indian General Election 2014</title>
  </head>
  <h1>Insights of Indian General Election 2014</h1>
-  <body>
- <img src="https://raw.githubusercontent.com/kuberiitb/analytics/master/LeadingParty.png" alt="Leading Parties of 2014 General Election" width="600" height="340"  onmouseover="this.src='https://raw.githubusercontent.com/kuberiitb/analytics/master/LeadingParty.png'" onmouseout="this.src='https://raw.githubusercontent.com/kuberiitb/analytics/master/LeadingParty.png'"  width="600" height="340" >
+ <body>
+ 
+ <script>
+ function bigImg(x)
+ {
+ x.style.height="340px";
+ x.style.width="600px";
+ }
+ 
+ function normalImg(x)
+ {
+ x.style.height="720px"; 
+ x.style.width="1024px";
+ }
+
+ </script>
+ <img onmouseout="bigImg(this)" onmouseover="normalImg(this)" border="2" src="https://raw.githubusercontent.com/kuberiitb/analytics/master/LeadingParty.png" alt="Smiley" width="600px" height="340px">
  </body>
- </html>
+</html>
