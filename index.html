@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
  <style type="text/css">
- <!--
  #tabs {
- 	border-bottom: .5em solid #0033CC;
- 	margin: 0;
+ 	border-bottom: 1px solid #0033CC;
+ 	margin: 10px 10px 10px 0px;
  	padding: 0;
  }
  #tabs li { 
  	display:inline; 
+	background-color: #ADFF2F;
  	border-top: .1em solid #03c;
  	border-left: .1em solid #03c;
  	border-right: .1em solid #03c;
@@ -20,24 +20,30 @@
  }
  #page1 #tabs li#tab1 a, #page2 #tabs li#tab2 a, #page3 #tabs li#tab3 a, .page4 li#tab4 a {
  	padding: 0.25em 1em;
- 	background-color: #03c;
- 	color: #fff;
+ 	background-color: #ADFF2F;
+ 	color: #ADFF2F;
  }
+ 
  -->
  </style>
+<div>
 
- <head>
-  <title>Insights of Indian General Election 2014</title>
+ <head >
+  <title> Analytics using R and Python</title>
+  <h1 style="margin-left:200px;"> Analytics using R and Python</h1>
+  
  </head>
-  <h1>Insights of Indian General Election 2014</h1>
+ 
+  <div style="margin-left:200px;" >
   <body>
-   <ul id="tabs">
-    <li id="twitter"><a href="twitter.md">twitter</a></li>
-    <li id="R"><a href="finance.html">Finance</a></li>
-    <li id="crawling"><a href="election.htm">Election</a></li>
-    <li id="Others"><a href="index.html">Others</a></li>
+   <ul id="tabs" >
+    <li id="Election"><a href="election.html">Election</a></li>
+	<li id="twitter"><a href="twitter.html">Twitter</a></li>
+    <li id="Finance"><a href="finance.html">Finance</a></li>
+    <li id="Others"><a href="index.html">others</a></li>
    </ul>
 
+	
    <script>
    function bigImg(x)
    {
@@ -47,11 +53,12 @@
    
    function normalImg(x)
    {
-   x.style.height="720px"; 
-   x.style.width="1024px";
+   x.style.height="510px"; 
+   x.style.width="900px";
    }
   
    </script>
    <img onmouseout="bigImg(this)" onmouseover="normalImg(this)" border="2" src="https://raw.githubusercontent.com/kuberiitb/analytics/master/LeadingParty.png" alt="Smiley" width="600px" height="340px">
   </body>
+  </div>
 </html>
