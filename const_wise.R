@@ -69,9 +69,17 @@ for(stateup in 1:2){
 	}
 }
 
+full_data$winner=0
+full_data[1,"winner"]=1
+full_data[1:100,c(1,2,3,6)]
+for(i in 2:nrow(full_data)){
+  if(full_data[i-1,"Votes"] < full_data[i,"Votes"]){
+    full_data[i,"winner"]=1
+  }
+}
+
 full_data
 names(full_data)
-
 unique(full_data$State)
 dim(full_data)
 unique(duplicated(full_data))
