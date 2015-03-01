@@ -10,7 +10,7 @@ Initial idead:
 
 ## remove noice in backgrund
 
-input image ![alt example](https://raw.githubusercontent.com/kuberiitb/analytics/master/imageAnalysis/data/input00.jpg)
+input image ![alt example](https://raw.githubusercontent.com/kuberiitb/analytics/master/imageAnalysis/data/input02.jpg)
 
 ### code to clean:
 
