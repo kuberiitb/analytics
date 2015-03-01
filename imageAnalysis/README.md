@@ -46,4 +46,4 @@ def read_clean_image(image_file_name = '../input/input00.jpg', max_black = 150, 
 read_clean_image(image_file_name = '../input/input02.jpg', max_black = 100, clean = 1 )
 ```
 
-processed image looks like this [alt processed](https://raw.githubusercontent.com/kuberiitb/analytics/master/imageAnalysis/output/input02.jpg)
+processed image looks like this ![alt processed](https://raw.githubusercontent.com/kuberiitb/analytics/master/imageAnalysis/output/input02.jpg)
