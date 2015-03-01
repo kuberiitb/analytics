@@ -43,5 +43,5 @@ def read_clean_image(image_file_name = '../input/input00.jpg', max_black = 150, 
         return image_pixels    
 
 
-read_clean_image(image_file_name = '../input/input02.jpg', max_black = 10, clean = 1 )
+read_clean_image(image_file_name = '../input/input02.jpg', max_black = 100, clean = 1 )
 ```
