@@ -1,7 +1,5 @@
-#Analytics
+#Shiny Election App
 =========
-
-##codes for data collection management and analysis
 
 I have added two basic R codes to pull data of Indian General election 2014 from election commission official website eciresults.nic.in       
 First one is statewise.R, which is state/UTwise summarized data for winners and runner-ups       
